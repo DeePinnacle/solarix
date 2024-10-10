@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background: url('solarp.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cta-buttons a {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.btn.primary {
+    background-color: #f9a825;
+}
+
+.btn.secondary {
+    background-color: #039be5;
+}
+
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.solutions-cards, .three-column, .steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card, .column, .step {
+    width: 30%;
+    padding: 1rem;
+    background: #f4f4f4;
+    margin: 1rem 0;
+    border-radius: 8px;
+}
+
+.impact-stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0f7fa;
+    padding: 2rem 0;
+}
+
+.stat h3 {
+    font-size: 2.5rem;
+    color: #039be5;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
